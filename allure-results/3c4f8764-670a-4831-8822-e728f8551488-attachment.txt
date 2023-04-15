@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.TextView[@text='משהו השתבש. צור קשר עם תמיכהError: Request failed with status code 500']"
+}

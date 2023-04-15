@@ -35,9 +35,12 @@ describe('My Login application', () => {
         await browser.pause(2000);
         await LoginScreen.login_option_select.click();
         await browser.pause(10000);
-        await LoginScreen.location_select.click();
         await browser.pause(2000);
+        await LoginScreen.ok_btn_select.click();
+        await browser.pause(2000);
+        await LoginScreen.location_select.click();
         await browser.pause(10000);
+        
     })
 
     it('Salary Page Verification', async () => {

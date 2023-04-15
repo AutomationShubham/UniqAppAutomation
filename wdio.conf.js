@@ -24,13 +24,18 @@ exports.config = {
     // then the current working directory is where your `package.json` resides, so `wdio`
     // will be called from there.
     //
-    specs: [
-        './test/specs/**/*.js'
-    ],
-    // Patterns to exclude.
-    exclude: [
-        // 'path/to/excluded/files'
-    ],
+    specs: 
+        [
+            
+            
+            './test/specs/**/B_login.js',
+            './test/specs/**/C_salary.js',
+            './test/specs/**/D_home.js',
+            
+           
+        ],
+
+    
     //
     // ============
     // Capabilities
@@ -47,7 +52,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -55,10 +60,10 @@ exports.config = {
     //
     capabilities: [{
         platformName: "Android",
-        "appium:deviceName": "Pixel XL",
-        "appium:platformVersion": "13",
+        "appium:deviceName": "Pixel 6 Pro",
+        "appium:platformVersion": "12",
         "appium:automationName": "UIAutomator2",
-       "appium:app": path.join(process.cwd(),".\\app\\unique-plus.apk")
+       /* "appium:app": path.join(process.cwd(),".\\app\\unique-plus.apk")*/
 
 
        

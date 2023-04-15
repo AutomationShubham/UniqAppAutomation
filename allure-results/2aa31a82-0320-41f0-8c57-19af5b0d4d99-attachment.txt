@@ -1,0 +1,3 @@
+{
+  "appPath": "D:\\UniqAppAutomation\\app\\unique-plus.apk"
+}

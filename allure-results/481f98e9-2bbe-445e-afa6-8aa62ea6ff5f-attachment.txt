@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.TextView[@text='שדה תעודת זהות ו/או סיסמה שגויים']"
+}

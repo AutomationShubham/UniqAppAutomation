@@ -1,6 +1,7 @@
 {
   "orgCode": "1002",
   "id": "18",
-  "wrongid": "189",
+  "wrongId": "189",
+  "wrongPassword": "Aa123456",
   "password": "Aa123456!"
 }
